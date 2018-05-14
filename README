@@ -1,0 +1,7 @@
+src/models/global.js
+修改model跟url相关
+
+font-awesome
+doc: https://www.npmjs.com/package/react-fa
+import { Icon } from "react-fa"
+<Icon name="user" />

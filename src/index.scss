@@ -1,0 +1,152 @@
+
+html, body, :global(#root) {
+  height: 100%;
+}
+
+:global{
+
+  .img-circle {
+    border-radius: 50%;
+  }
+
+  .error {
+    color: red;
+  }
+
+  .ant-card {
+    margin-bottom: 15px;
+  }
+
+  code {
+    background-color: #eee;
+    display: block;
+    padding: 5px;
+  }
+
+  ul.list-unstyled,ol.list-unstyled {
+    li {
+      list-style-type: none;
+      padding-bottom:5px;
+      padding-top:5px;
+      border-bottom: 1px solid #eee;
+    }
+    padding-left: 0px;
+  }
+
+  .normal {
+    font-size: 14px;
+    font-weight: normal;
+    a {
+      font-size: 14px;
+      font-weight: normal;
+    }
+  }
+
+  .time-ago {
+    color: #999;
+    font-size: 12px;
+  }
+
+  .message.unread {
+    font-weight: bold;
+    a {
+      font-weight: bold;
+    }
+  }
+
+  .group-thumb {
+    text-align: center;
+    img {
+      width: 80%;
+    }
+  }
+
+
+  .group-member {
+    text-align: center;
+  }
+
+  .avatar-tiny {
+    width: 20px;
+    height: 20px;
+  }
+
+  .ant-layout-header {
+    background-color: white!important;
+  }
+
+  .logo {
+    width: 100px;
+    height: 40px;
+    background: #fff;
+    border-radius: 6px;
+    margin: 10px 20px 10px 0px;
+    float: left;
+    display: inline-block;
+    img {
+      width: 100px;
+      height: 38px;
+    }
+  }
+
+  .pull-right {
+    float: right;
+  }
+
+  .pull-left {
+    float: left;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .inner {
+    padding: 10px;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+  
+  .errors {
+    ul {
+      li {
+        color: red;
+      }
+    }
+  }
+
+  // group post
+  .group-post {
+    .user-info {
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+
+  .group-post.active {
+    border: 1px solid #faa;
+    background-color: #fefefe;
+  }
+
+  .attachments {
+    ul {
+      padding: 0px;
+    }
+    li {
+      list-style-type: none;
+      display: inline-block;
+      margin-right: 5px;
+      img {
+        width: 120px;
+        height: 120px;
+      }
+    }
+    padding: 10px;
+  }
+
+  .hide {
+    display: none;
+  }
+}

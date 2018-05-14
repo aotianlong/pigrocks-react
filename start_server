@@ -1,0 +1,2 @@
+#!/bin/bash
+babel-node --presets node6,react,es2016 --plugins transform-object-rest-spread,transform-class-properties,transform-decorators-legacy src/server.js
